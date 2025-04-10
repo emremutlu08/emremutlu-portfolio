@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://emremutlu.com
+
+# Sitemaps
+Sitemap: https://emremutlu.com/sitemap.xml
