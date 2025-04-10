@@ -7,7 +7,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Github, Linkedin, Mail, Phone } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 import Image from "next/image";
 
 export default function Portfolio() {
@@ -185,13 +185,6 @@ export default function Portfolio() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 text-center">Contact</h2>
           <div className="flex flex-col items-center justify-center gap-4 max-w-md mx-auto">
-            <a
-              href="tel:+905051160689"
-              className="flex items-center gap-3 text-gray-700 hover:text-gray-900"
-            >
-              <Phone size={20} />
-              <span>+90 505 116 0689</span>
-            </a>
             <a
               href="mailto:mutluemre93@gmail.com"
               className="flex items-center gap-3 text-gray-700 hover:text-gray-900"
